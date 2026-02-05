@@ -61,16 +61,16 @@ export default function Home() {
                                 <div className="h-28 rounded-xl mb-4 overflow-hidden bg-rose-dark border border-rose-bronze/20 group-hover:scale-105 transition-transform relative">
                                     <img src={s.img} alt={s.name} className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
                                 </div>
-                                <div className="w-12 h-12 rounded-xl mx-auto mb-3 flex items-center justify-center bg-rose-orange shadow-lg shadow-rose-orange/20">
-                                    <s.icon className="w-6 h-6 text-white" />
+                                <div className="w-12 h-12 rounded-xl mx-auto mb-3 flex items-center justify-center bg-rose-orange shadow-lg shadow-rose-orange/20 border-shadow-rose-orange">
+                                    <s.icon className="w-6 h-6 text-[#5a8dad]" />
                                 </div>
-                                <p className="font-black text-lg uppercase text-rose-black font-heading tracking-wide">{s.name}</p>
+                                <p className="font-black text-lg uppercase text-black font-heading tracking-wide">{s.name}</p>
                                 <p className="text-sm font-bold text-rose-orange mt-1">{s.price}</p>
                             </Link>
                         ))}
                     </div>
                     <div className="text-center mt-10">
-                        <Link to="/services" className="inline-flex items-center gap-1 text-sm font-bold uppercase text-rose-bronze hover:text-rose-orange transition-colors">
+                        <Link to="/services" className="inline-flex items-center gap-2 px-8 py-3 rounded-xl font-black text-sm uppercase text-white bg-rose-black shadow-lg hover:bg-[#5a8dad] hover:scale-105 transition-all">
                             View Details <ChevronRight className="w-4 h-4" />
                         </Link>
                     </div>
