@@ -39,7 +39,7 @@ export default function Layout({ children }) {
                         <NavItem to="/areas">Areas</NavItem>
                         <NavItem to="/about">About</NavItem>
                         <NavItem to="/faq">FAQ</NavItem>
-                        <a href="tel:+15551234567" className="px-4 py-2 rounded-lg font-bold flex items-center gap-2 text-white text-sm bg-rose-orange hover:bg-white hover:text-rose-orange transition-colors">
+                        <a href="tel:+15551234567" className="px-4 py-2 rounded-lg font-bold flex items-center gap-2 text-white text-sm bg-rose-orange hover:bg-[#5a8dad] hover:text-white transition-colors">
                             <Phone className="w-4 h-4" /> (555) 123-4567
                         </a>
                     </div>
@@ -57,7 +57,7 @@ export default function Layout({ children }) {
                         <NavItem to="/areas">Areas</NavItem>
                         <NavItem to="/about">About</NavItem>
                         <NavItem to="/faq">FAQ</NavItem>
-                        <a href="tel:+15551234567" className="block text-center py-3 rounded-lg font-bold text-white bg-rose-orange">
+                        <a href="tel:+15551234567" className="block text-center py-3 rounded-lg font-bold text-white bg-rose-orange hover:bg-[#5a8dad] transition-colors">
                             Call (555) 123-4567
                         </a>
                     </div>

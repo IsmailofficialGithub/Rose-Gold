@@ -25,8 +25,11 @@ const FAQItem = ({ q, a }) => {
 
 export default function FAQ() {
     return (
-        <section className="pt-20 pb-12 bg-rose-black min-h-[60vh]">
-            <div className="max-w-3xl mx-auto px-4">
+        <section className="pt-20 pb-12 bg-rose-black min-h-[60vh] relative overflow-hidden">
+            <div className="absolute inset-0 opacity-5 pointer-events-none">
+                <img src="/images/image%20copy%2011.png" alt="Background" className="w-full h-full object-cover" />
+            </div>
+            <div className="max-w-3xl mx-auto px-4 relative z-10">
                 <h1 className="text-5xl font-black mb-10 uppercase text-rose-light-gray font-heading border-b border-rose-dark pb-4">FAQ</h1>
                 <div className="space-y-4 mb-16">
                     {[

@@ -2,8 +2,11 @@ import CTA from '../components/CTA';
 
 export default function Areas() {
     return (
-        <section className="pt-20 pb-12 bg-rose-black">
-            <div className="max-w-4xl mx-auto px-4">
+        <section className="pt-20 pb-12 bg-rose-black relative overflow-hidden">
+            <div className="absolute inset-0 opacity-5 pointer-events-none">
+                <img src="/images/image%20copy%2010.png" alt="Background" className="w-full h-full object-cover" />
+            </div>
+            <div className="max-w-4xl mx-auto px-4 relative z-10">
                 <h1 className="text-5xl font-black mb-12 uppercase text-rose-light-gray font-heading border-b border-rose-dark pb-4">Service Areas</h1>
                 <div className="grid md:grid-cols-2 gap-6 mb-16">
                     {[

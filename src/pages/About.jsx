@@ -7,7 +7,7 @@ export default function About() {
                 <h1 className="text-5xl font-black mb-10 uppercase text-rose-light-gray font-heading border-b border-rose-dark pb-4">About Us</h1>
 
                 <div className="h-64 rounded-2xl mb-10 overflow-hidden bg-rose-dark border border-rose-bronze/30 shadow-2xl relative group">
-                    <img src="https://placehold.co/1200x600/1C1C1C/FFB300?text=The+Rose+Gold+Team" alt="Our Team" className="w-full h-full object-cover" />
+                    <img src="/images/image%20copy.png" alt="Our Team" className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 </div>
 

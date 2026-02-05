@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="w-full">
                     <div className="h-64 md:h-96 relative overflow-hidden bg-rose-dark border-b-4 border-rose-orange group">
                         <img
-                            src="https://placehold.co/1920x800/1C1C1C/FFB300?text=Junk+Gone+Today"
+                            src="/images/image.png"
                             alt="Rose Gold Hauling Hero"
                             className="w-full h-full object-cover brightness-75"
                         />
@@ -44,7 +44,7 @@ export default function Home() {
                         ))}
                     </div>
 
-                    <a href="tel:+15551234567" className="inline-flex items-center gap-3 px-10 py-5 rounded-xl font-black text-2xl text-white bg-rose-orange shadow-[0_4px_30px_rgba(255,87,34,0.5)] transition hover:scale-105 hover:bg-white hover:text-rose-orange">
+                    <a href="tel:+15551234567" className="inline-flex items-center gap-3 px-10 py-5 rounded-xl font-black text-2xl text-white bg-rose-orange shadow-[0_4px_30px_rgba(255,87,34,0.5)] transition hover:scale-105 hover:bg-[#5a8dad] hover:text-white">
                         <Phone className="w-7 h-7" /> (555) 123-4567
                     </a>
                     <p className="mt-3 text-sm text-zinc-500">Call or text for a free instant quote</p>
@@ -80,7 +80,7 @@ export default function Home() {
             {/* Testimonial */}
             <section className="py-24 relative overflow-hidden bg-rose-dark">
                 <div className="absolute inset-0 opacity-10">
-                    <img src="https://placehold.co/1920x800/1C1C1C/FFFFFF?text=Customer+Happiness" alt="Testimonial Background" className="w-full h-full object-cover grayscale" />
+                    <img src="/images/image%20copy%208.png" alt="Testimonial Background" className="w-full h-full object-cover grayscale" />
                 </div>
                 <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
                     <div className="flex justify-center gap-1 mb-6">
