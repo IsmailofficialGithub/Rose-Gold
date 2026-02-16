@@ -29,7 +29,7 @@ export default function Layout({ children }) {
                     <Link to="/" onClick={closeMenu} className="flex items-center gap-2">
 
                         <span className="text-lg font-black font-heading text-rose-light-gray">
-                            <img src="/roseGold.png" alt="roseGold" width={75} height={75} />
+                            <img src="/roseGold.png" alt="roseGold" width={220} height={75} />
                         </span>
                     </Link>
 

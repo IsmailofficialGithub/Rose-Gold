@@ -20,12 +20,12 @@ export default function Areas() {
         { 
             area: "South Bay", 
             cities: "San Jose, Sunnyvale, Santa Clara, Palo Alto, Mountain View, Milpitas",
-            img: null
+            img: "/images/05 - Services Area Page Images/Areas Page Hero/2.png"
         },
         { 
             area: "North Bay", 
             cities: "Santa Rosa, San Rafael, Napa, Petaluma, Vallejo, Fairfield",
-            img: null
+            img: "/images/05 - Services Area Page Images/Sacramento Metro/1.png"
         },
     ];
 
@@ -62,16 +62,14 @@ export default function Areas() {
                     <div className="grid md:grid-cols-2 gap-6 mb-16">
                         {serviceAreas.map((a, i) => (
                             <div key={i} className="rounded-2xl overflow-hidden border border-rose-gold/30 bg-rose-dark hover:border-rose-gold transition-colors hover:shadow-[0_0_20px_rgba(255,179,0,0.1)]">
-                                {a.img && (
-                                    <div className="h-48 overflow-hidden relative">
-                                        <img 
-                                            src={a.img} 
-                                            alt={a.area} 
-                                            className="w-full h-full object-cover"
-                                        />
-                                        <div className="absolute inset-0 bg-gradient-to-t from-rose-dark/80 to-transparent"></div>
-                                    </div>
-                                )}
+                                <div className="h-48 overflow-hidden relative">
+                                    <img 
+                                        src={a.img} 
+                                        alt={a.area} 
+                                        className="w-full h-full object-cover"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-rose-dark/80 to-transparent"></div>
+                                </div>
                                 <div className="p-8">
                                     <h3 className="text-2xl font-black uppercase mb-3 text-rose-light-gray font-heading tracking-wide flex items-center gap-2">
                                         <span className="w-2 h-8 bg-rose-gold rounded-full"></span>
@@ -81,9 +79,22 @@ export default function Areas() {
                                 </div>
                             </div>
                         ))}
-                        <div className="p-8 rounded-2xl border border-dashed border-rose-gray/30 bg-transparent flex flex-col justify-center items-center text-center">
-                            <h3 className="text-xl font-black uppercase mb-2 text-rose-gray font-heading">Other Areas?</h3>
-                            <p className="text-rose-gray text-sm">Call us — we may be able to help!</p>
+                        <div className="rounded-2xl overflow-hidden border border-rose-gold/30 bg-rose-dark hover:border-rose-gold transition-colors hover:shadow-[0_0_20px_rgba(255,179,0,0.1)]">
+                            <div className="h-48 overflow-hidden relative">
+                                <img 
+                                    src="/images/05 - Services Area Page Images/Service Area Map/2.png" 
+                                    alt="Service Area Map" 
+                                    className="w-full h-full object-cover"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-rose-dark/80 to-transparent"></div>
+                            </div>
+                            <div className="p-8">
+                                <h3 className="text-2xl font-black uppercase mb-3 text-rose-light-gray font-heading tracking-wide flex items-center gap-2">
+                                    <span className="w-2 h-8 bg-rose-gold rounded-full"></span>
+                                    Other Areas?
+                                </h3>
+                                <p className="text-rose-gray leading-relaxed pl-4 border-l border-zinc-700">Call us — we may be able to help!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
